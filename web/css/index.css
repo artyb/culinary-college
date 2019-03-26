@@ -1,0 +1,225 @@
+.carousel-inner img {
+    width: 100%;
+    height: 575px !important;
+}
+
+.main {
+    margin-top: 52px;
+
+}
+
+.w3-ul {
+    padding: 0;
+    margin-left: 25px;
+
+}
+
+.container-fluid {
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+.brandinfo{
+    z-index: 99999;
+}
+
+.welcome {
+    background: rgb(246, 246, 246);
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+     margin-left: 15px;
+}
+
+.anchor{
+    text-decoration: none !important;
+}
+
+.welcome h4 {
+   font-size: 140%;
+font-weight: bold;
+color: #666666;
+text-align: center;
+margin-bottom: .8em;
+text-transform: uppercase;
+    color: #333333;
+    line-height: 300%;
+    border-bottom: .2em solid #ffc000;
+    display: inline;
+}
+
+.welcome p {
+
+    line-height: 25.2px;
+    margin: 0 0 35px;
+    color: #333;
+}
+.welcome-button {
+    margin-top:20px;    
+    margin-bottom:20px;
+}
+.welcome-button .welcomebtn {
+    background: #ffc000;
+    color: #ffffff !important;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 0.8;
+    padding: 18px 30px;
+    text-transform: capitalize;
+    border-radius: 1px;
+    letter-spacing: 0.5px;
+	border:0px !important;
+	cursor:pointer;
+	border-radius:100px;
+    text-decoration: none;
+
+}
+.welcome-button .welcomebtn:hover {
+    background: #ffc000;
+    color: #ffffff;
+    box-shadow: 0 10px 25px -2px #ffc000;
+    text-decoration: none;
+}
+
+.welcomeside{
+    background: rgb(246, 246, 246);
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+     margin-left: 15px;
+}
+
+.different {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.different h2{
+    font-size: 180%;
+font-weight: bold;
+color: #666666;
+text-align: center;
+margin-bottom: .8em;
+text-transform: uppercase;
+}
+
+.services .imgcenter{
+    text-align: center;
+opacity: .8;
+}
+
+.services h3 {
+    color: #333333;
+border-bottom: .2em solid #ffc000;
+font-size: 100%;
+line-height: 200%;
+text-transform: uppercase;
+margin-bottom: .5em;
+}
+
+.services p {
+    line-height: 140%;
+ text-align: justify;
+}
+
+.test img {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 100%; 
+    border: 3px solid white;
+    padding: 5px;
+}
+
+.testimonial {
+    background-image: url(../img/official/reviews.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+.testimonial .carousel-indicators {
+    bottom: -60px;
+}
+
+.border-bottom {
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+
+.testimonial .test p {
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+}
+
+
+.member img {
+    height: 50%;
+    width: auto;
+}
+
+.member-bottom {
+    
+    width: 250px;
+    height: 3px;
+    background-color: #ffc000;
+    margin: 0 auto;
+
+}
+.facilitycard img {
+    height: 250px;
+    width: 20rem;
+}
+.facilitycard
+{
+    height: 450px;
+}
+
+.principle {
+    margin-top: 21px;
+}
+.cardhover:hover {
+transform: scale(1.1);
+}
+
+
+
+/*courses we offer carousel*/
+
+.courseslide>li[data-slide-to="0"].active a { background-color:  rgba(255,192,0, 0.7); color:#fff;}
+.courseslide>li[data-slide-to="1"].active a { background-color:  rgba(255,192,0, 0.7); color:#fff;}
+.courseslide>li[data-slide-to="2"].active a { background-color:  rgba(255,192,0, 0.7); color:#fff;}
+.courseslide>li[data-slide-to="3"].active a { background-color:  rgba(255,192,0, 0.7); color:#fff;}
+
+
+
+/*ends here*/
+
+.scroll-top-top {
+    background: red;
+    bottom: 15px;
+    right: 20px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display:none; 
+     margin-bottom: 30px;
+}
+.scroll-top-top i {
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    padding-top: 15px;
+}

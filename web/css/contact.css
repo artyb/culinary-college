@@ -1,0 +1,89 @@
+/*contact css start from here*/
+
+.contact div h3{
+    text-align: center;
+}
+
+.contact>.row>div:first-child{
+    padding-right: 0px;
+}
+
+.contact>.row>div:last-child{
+    padding-left: 0px;
+}
+
+.contact>.row>div:not(:last-child):not(:first-child){
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.contact .form-group .control-label{
+    float: left;
+}
+
+.w3-card-contact{
+    background-color: grey;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    height: 432px;
+    overflow-y: auto;
+}
+
+.w3-card-tell{
+    background-color: #005d00a3;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    height: 432px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.w3-card-tell .form-group input,.w3-card-tell .form-group textarea{
+    background-color: #82bd7238;
+}
+
+.w3-card-visit{
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    height: 432px;
+    overflow-y: auto;
+}
+
+.detailcontent{
+    display: table;
+    width: 100%;
+    height: 80%;
+}
+
+.metadata{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+@media(max-width:767px) {
+    .contact > .row > div:first-child{
+        padding-right: 15px !important;
+    }
+
+    .contact>.row>div:last-child{
+        padding-left: 15px !important;
+    }
+
+    .contact > .row > div:not(:last-child):not(:first-child){
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .w3-card-contact, .w3-card-visit,.w3-card-tell{
+        height: auto !important;
+    }
+}
+
+/*contact css ends here*/

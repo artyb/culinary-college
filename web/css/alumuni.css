@@ -1,0 +1,30 @@
+
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+/*    width: 100%;*/
+}
+
+@media only screen and (max-width:768px) {
+
+	.tablefont
+	{
+		font-size:11px!important;
+	}
+
+	.alumunifont
+	{
+		font-size:17px;
+	}
+
+}
+

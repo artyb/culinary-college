@@ -1,0 +1,44 @@
+.profilecard
+{
+    margin-top:0px;
+margin-bottom:5px;
+}
+
+.profilecard:hover{
+    transform: scale(1.01);
+}
+
+
+.profileborder
+{
+    background-color: #fff0!important;
+    border: 1px solid #726262!important;
+    border-style:!important;
+}
+
+.profilephoto
+{
+     border-style:double;
+     border:1px solid #c2bcbc99;
+     height: 202px;
+width: 204px;
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+    .profilecard
+    {
+        margin-bottom:105px;
+    }
+    h3.abcd
+    {
+        font-size:20px;
+    }
+    p#xyz
+    {
+        font-size:14px;
+    }
+}
+
+
